@@ -32,7 +32,7 @@ jobs:
         run: chmod +x gradlew
 
       - name: APK 빌드
-        run: ./gradlew assembleDebug --no-daemon
+        run: ./gradlew assembleDebug --no-daemon -Dorg.jetbrains.kotlin.gradle.plugin.statistics.disable=true
 
       - name: APK 업로드 (다운로드용)
         uses: actions/upload-artifact@v4
