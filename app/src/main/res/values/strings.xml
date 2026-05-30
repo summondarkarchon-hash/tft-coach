@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">롤체 훈수봇</string>
+    <string name="notif_channel_name">롤체 훈수봇</string>
+    <string name="notif_running">실시간으로 게임 화면을 분석하고 있습니다</string>
+    <string name="btn_start">▶ 시작</string>
+    <string name="btn_stop">⏹ 중지</string>
+    <string name="status_running">모니터링 중</string>
+    <string name="status_idle">대기 중</string>
+    <string name="perm_overlay">오버레이 권한</string>
+    <string name="perm_capture">화면 캡처 권한</string>
+    <string name="err_ocr">화면 인식 오류 (3회 연속 실패)</string>
+</resources>
